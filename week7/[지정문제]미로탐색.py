@@ -20,7 +20,7 @@ def bfs(x, y):
             
             if nx<0 or ny<0 or nx>=n or ny>=m:
                 continue
-            if (nx,ny) == 0:
+            if graph[nx][ny] == 0:
                 continue
             if graph[nx][ny] == 1:
                 graph[nx][ny] = graph[x][y] + 1
