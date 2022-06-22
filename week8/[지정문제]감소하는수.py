@@ -14,9 +14,6 @@ for i in range(1, 11):
         for j in sorted(c, reverse=True):
             num += str(j)
         arr.append(int(num))
-    if i==3:
-        arr.sort()
-        print(f"arr: {arr}")
 arr.sort()
 
 if n < len(arr):
